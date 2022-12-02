@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: verdana;
@@ -33,26 +36,13 @@ header {
     font-size: 90px;
     position: absolute;
     top: 250px;
-    /* left: 0px; */
     background-color: rgb(255, 183, 0);
     padding: 30px;
-}
-.menu_bar {
-    width: 100%;
-    height: 65px;
-    text-align: center;
-    background-color: rgba(221, 221, 221, 0.722);
-    border-bottom: 1px solid;
-    border-color: rgb(191, 191, 191);
 }
 .menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    float: left;
-    padding: 18px;
-    text-align: center;
-    width: 22%;
-    color: black;
+    /* float: left; */
 }
 a:visited {
     color: black;
@@ -65,15 +55,12 @@ p {
     font-style: normal;
 }
 .images {
-    width: 100%;
-    height: 405px;
-    position: static;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
 }
 .image {
-    position: relative;
-    float: left;
-    width: 40%;
-    padding: 5%;
+    scale: 70%;
 }
 .join {
     font-family: Arial, Helvetica, sans-serif;
@@ -81,7 +68,6 @@ p {
     color: rgb(131, 131, 131);
     text-align: center;
     padding: 100px;
-    margin-top: 150px;
 }
 .email {
     width: 300px;
@@ -95,4 +81,19 @@ p {
     color: rgb(131, 131, 131);
     text-align: center;
     padding: 10px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    height: 90px;
+    align-items: center;
+}
+.menu {
+    padding: 0;
+    margin: -4px;
+    background-color: rgba(221, 221, 221, 0.722);
+
 }
